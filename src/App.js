@@ -17,6 +17,9 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={()=>window.Telegram.WebApp.sendData("Hello Telegram")}>
+          Send Data
+        </button>
       </header>
     </div>
   );
