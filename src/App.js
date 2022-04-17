@@ -7,13 +7,13 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          {window.Telegram.WebApp.initData}
-          {window.Telegram.WebApp.initDataUnsafe}
-          {window.Telegram.WebApp.colorScheme}
-          {window.Telegram.WebApp.isExpanded}
-          {window.Telegram.WebApp.viewportHeight}
-          {window.Telegram.WebApp.viewportStableHeight}
-          {window.Telegram.WebApp.themeParams}
+          {window.Telegram.WebApp.initData.toString()}
+          {window.Telegram.WebApp.initDataUnsafe.toString()}
+          {window.Telegram.WebApp.colorScheme.toString()}
+          {window.Telegram.WebApp.isExpanded.toString()}
+          {window.Telegram.WebApp.viewportHeight.toString()}
+          {window.Telegram.WebApp.viewportStableHeight.toString()}
+          {window.Telegram.WebApp.themeParams.toString()}
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
